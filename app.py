@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import plotly_express as px 
 
-ruta = r'C:\Users\Natalia Lopera\Documents\Python_projects\project_sprint_5\repository1\vehicles_us.csv'
+ruta = 'vehicles_us.csv'
 car_data = pd.read_csv(ruta)
 car_data
 
