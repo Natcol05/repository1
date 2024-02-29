@@ -16,4 +16,10 @@ if hist_button:
     
     st.plotly_chart(fig, use_container_width=True)
 
+$ ls -a
+.git .gitignore .streamlit app.py README.md requirements.txt
+
+$ git add .
+$ git commit -am "initial commit"
+$ git push
 
